@@ -4,6 +4,7 @@ import 'package:startech_website_ui/views/widgets/banner_ad.dart';
 import 'package:startech_website_ui/views/widgets/search.dart';
 import '../../controllers/home_controller.dart';
 import '../../utils/color/colors.dart';
+import '../widgets/animated_text.dart';
 import '../widgets/banner_slider.dart';
 import '../widgets/category_section.dart';
 import '../widgets/product_grid.dart';
@@ -40,6 +41,8 @@ class HomeView extends StatelessWidget {
             BannerSlider(),
             SizedBox(height: 10),
             BannerAd(),
+            SizedBox(height: 5),
+            AnimatedText(),
             SizedBox(height: 5),
             CategorySection(),
             SizedBox(height: 10),

@@ -5,18 +5,37 @@ class BannerAd extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Padding(
-      padding: EdgeInsetsGeometry.all(20),
+      padding: const EdgeInsets.all(10),
       child: Row(
         children: [
-          Container(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-              color: Colors.black,
-              image: DecorationImage(
-                  image: NetworkImage("https://www.startech.com.bd/image/cache/catalog/home/banner/2025/startech-app-banner-315x252.webp")
-              )
+          Expanded(
+            child: Container(
+              height: 120,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(15),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://www.startech.com.bd/image/cache/catalog/home/banner/2025/startech-app-banner-315x252.webp",
+                  ),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Container(
+              height: 120,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(15),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://www.startech.com.bd/image/cache/catalog/ads/2026/ac-ton-315x252.webp",
+                  ),
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
           ),
         ],
