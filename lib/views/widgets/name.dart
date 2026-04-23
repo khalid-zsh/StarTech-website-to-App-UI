@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class Name extends StatelessWidget {
-  const Name({super.key});
+  final String title;
+  final String subTitle;
+  const Name({super.key, required this.title, required this.subTitle});
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +11,7 @@ class Name extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            "Featured Category",
+            title,
             style: TextStyle(
               fontSize: 25,
               fontWeight: FontWeight.w800,
@@ -17,7 +19,7 @@ class Name extends StatelessWidget {
             ),
           ),
           Text(
-            "Get Your Desired Product from Featured Category!",
+            title,
             style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.w800,

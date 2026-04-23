@@ -7,8 +7,8 @@ import '../../utils/color/colors.dart';
 import '../widgets/animated_text.dart';
 import '../widgets/banner_slider.dart';
 import '../widgets/category_section.dart';
+import '../widgets/featured_product.dart';
 import '../widgets/name.dart';
-import '../widgets/product_grid.dart';
 import '../widgets/services_section.dart';
 
 class HomeView extends StatefulWidget {
@@ -48,16 +48,19 @@ class _HomeViewState extends State<HomeView> {
             BannerSlider(),
             SizedBox(height: 10),
             BannerAd(),
-            SizedBox(height: 5),
-            AnimatedText(),
-            SizedBox(height: 5),
-            ServicesSection(),
-            SizedBox(height: 5),
-            Name(),
-            SizedBox(height: 5),
-            CategorySection(),
             SizedBox(height: 10),
-            ProductGrid(),
+            AnimatedText(),
+            SizedBox(height: 10),
+            ServicesSection(),
+            SizedBox(height: 10),
+            Name(title: 'Featured Category', subTitle: 'Get Your Desired Product from Featured Category!',),
+            SizedBox(height: 10),
+            FeaturedCategory(),
+            SizedBox(height: 10),
+            Name(title: 'Featured Products', subTitle: 'Check & Get Your Desired Product!',),
+            SizedBox(height: 10),
+            FeaturedProduct(),
+            SizedBox(height: 10),
           ],
         ),
       ),
