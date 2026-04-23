@@ -2,6 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../controllers/home_controller.dart';
+import 'slider_indicator.dart';
 
 class BannerSlider extends StatelessWidget {
   BannerSlider({super.key});
@@ -37,7 +38,7 @@ class BannerSlider extends StatelessWidget {
           },
           options: CarouselOptions(
             autoPlay: true,
-            height: size.height * .22,
+            height: size.height * .2,
             viewportFraction: 0.9,
             enlargeCenterPage: true,
             onPageChanged: (index, reason) {
@@ -46,24 +47,11 @@ class BannerSlider extends StatelessWidget {
           ),
         ),
 
-        /// Indicator
-        Obx(() => Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: List.generate(
-            sliders.length,
-                (index) => AnimatedContainer(
-              duration: Duration(milliseconds: 300),
-              margin: EdgeInsets.symmetric(horizontal: 4, vertical: 8),
-              height: 8,
-              width: controller.currentIndex.value == index ? 20 : 8,
-              decoration: BoxDecoration(
-                color: controller.currentIndex.value == index
-                    ? Colors.blue
-                    : Colors.grey,
-                borderRadius: BorderRadius.circular(10),
-              ),
-            ),
-          ),
+        Obx(() => SliderIndicator(
+          currentIndex: controller.currentIndex.value,
+          itemCount: sliders.length,
+          activeColor: Colors.blue,
+          inactiveColor: Colors.grey,
         )),
       ],
     );
