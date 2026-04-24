@@ -1,17 +1,64 @@
-# startech_website_ui
+# 🛒 StarTech E-Commerce UI (Flutter)
 
-A new Flutter project.
+A modern, responsive **Flutter-based e-commerce UI clone** inspired by StarTech.  
+This project demonstrates real-world UI architecture, reusable widgets, GetX state management, and scalable product/category systems.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🏠 Home Screen
+- Animated banner slider (Carousel)
+- Scrolling announcement text
+- Promotional banners
+- Services section grid
+- Featured categories grid
+- Featured products grid
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 🛍 Product System
+- Discount price support
+- Earn point system (conditional UI)
+- Save money badge
+- Dynamic product card rendering
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📂 Category System
+- Grid-based category layout (4 columns)
+- Icon + title UI
+- Responsive design for mobile
+
+### 🎯 UI Components
+- Custom search bar
+- Animated slider indicator
+- Reusable section title widget
+- Service cards grid
+- Bottom navigation bar
+
+### ⚙ State Management
+- GetX used for:
+    - Carousel index tracking
+    - Reactive UI updates
+
+---
+
+## 🧠 Tech Stack
+
+- Flutter (UI Framework)
+- Dart
+- GetX (State Management)
+- Carousel Slider
+- Text Scroll package
+- Network Images (API-ready structure)
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots in `/assets/screenshots/`
+
+| Home Screen | Featured Products | Categories |
+|------------|------------------|------------|
+| ![home](assets/readme/home.png) | ![products](assets/readme/products.png) | ![categories](assets/readme/featured.png) |
+
+---
+
+## 📁 Project Structure

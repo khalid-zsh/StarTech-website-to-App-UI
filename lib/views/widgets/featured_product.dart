@@ -200,54 +200,7 @@ class FeaturedProduct extends StatelessWidget {
         'earn_point' : null,
         'save_money' : 'Save: 2,110৳ (-7%)'
       },
-      {
-        'image' : 'https://www.startech.com.bd/image/cache/catalog/starlink/starlink-standard/starlink-standard-001-200x200.webp',
-        'title' : 'Starlink Standard Kit',
-        'discount_price' : null,
-        'original_price' : '49,500',
-        'earn_point' : '400',
-        'save_money' : null
-      },
-      {
-        'image' : 'https://www.startech.com.bd/image/cache/catalog/portable-power-station/ecoflow/river-3/river-3-aus-port-200x200.webp',
-        'title' : 'EcoFlow River 3 UPS & Portable Power Station',
-        'discount_price' : '27,390',
-        'original_price' : '29,500',
-        'earn_point' : null,
-        'save_money' : 'Save: 2,110৳ (-7%)'
-      },
-      {
-        'image' : 'https://www.startech.com.bd/image/cache/catalog/starlink/starlink-standard/starlink-standard-001-200x200.webp',
-        'title' : 'Starlink Standard Kit',
-        'discount_price' : null,
-        'original_price' : '49,500',
-        'earn_point' : '400',
-        'save_money' : null
-      },
-      {
-        'image' : 'https://www.startech.com.bd/image/cache/catalog/portable-power-station/ecoflow/river-3/river-3-aus-port-200x200.webp',
-        'title' : 'EcoFlow River 3 UPS & Portable Power Station',
-        'discount_price' : '27,390',
-        'original_price' : '29,500',
-        'earn_point' : null,
-        'save_money' : 'Save: 2,110৳ (-7%)'
-      },
-      {
-        'image' : 'https://www.startech.com.bd/image/cache/catalog/starlink/starlink-standard/starlink-standard-001-200x200.webp',
-        'title' : 'Starlink Standard Kit',
-        'discount_price' : null,
-        'original_price' : '49,500',
-        'earn_point' : '400',
-        'save_money' : null
-      },
-      {
-        'image' : 'https://www.startech.com.bd/image/cache/catalog/portable-power-station/ecoflow/river-3/river-3-aus-port-200x200.webp',
-        'title' : 'EcoFlow River 3 UPS & Portable Power Station',
-        'discount_price' : '27,390',
-        'original_price' : '29,500',
-        'earn_point' : null,
-        'save_money' : 'Save: 2,110৳ (-7%)'
-      },
+
     ];
 
     return Padding(
