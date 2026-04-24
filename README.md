@@ -61,4 +61,3 @@ This project demonstrates real-world UI architecture, reusable widgets, GetX sta
 
 ---
 
-## 📁 Project Structure
